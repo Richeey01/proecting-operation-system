@@ -1,0 +1,12 @@
+alloc P1 200
+alloc P2 300
+alloc P3 150
+alloc P4 250
+free P2
+free P4
+alloc P5 120
+alloc P6 280
+free P1
+alloc P7 400
+free P3
+alloc P8 350
