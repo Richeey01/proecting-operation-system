@@ -1,0 +1,4 @@
+numpy>=2.0,<3
+matplotlib>=3.8,<4
+scikit-learn>=1.6,<2
+umap-learn>=0.5.7,<1

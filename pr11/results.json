@@ -1,0 +1,56 @@
+{
+  "dataset": "Breast Cancer Wisconsin (sklearn)",
+  "samples": 569,
+  "train_samples": 455,
+  "test_samples": 114,
+  "original_features": 30,
+  "sklearn_version": "1.9.1",
+  "umap_version": "0.6.0",
+  "pca_90_components": 7,
+  "pca_90_actual_variance": 0.9126014634880428,
+  "pca_first_two_variance": 0.6335811006772489,
+  "models": {
+    "Без PCA": {
+      "cv_accuracy_mean": 0.9780219780219781,
+      "cv_accuracy_std": 0.009828870230768321,
+      "cv_fit_time_mean_s": 0.008140182495117188,
+      "cv_fit_time_std_s": 0.0007544358419004904,
+      "features_to_classifier": 30,
+      "test_accuracy": 0.9824561403508771
+    },
+    "PCA 80%": {
+      "cv_accuracy_mean": 0.9692307692307691,
+      "cv_accuracy_std": 0.004395604395604381,
+      "cv_fit_time_mean_s": 0.0074711799621582035,
+      "cv_fit_time_std_s": 0.000915964136633451,
+      "features_to_classifier": 5
+    },
+    "PCA 90%": {
+      "cv_accuracy_mean": 0.9714285714285713,
+      "cv_accuracy_std": 0.00879120879120876,
+      "cv_fit_time_mean_s": 0.007750320434570313,
+      "cv_fit_time_std_s": 0.000706604379631136,
+      "features_to_classifier": 7
+    },
+    "PCA 95%": {
+      "cv_accuracy_mean": 0.9824175824175825,
+      "cv_accuracy_std": 0.005383493940182844,
+      "cv_fit_time_mean_s": 0.009107589721679688,
+      "cv_fit_time_std_s": 0.0007352683793204201,
+      "features_to_classifier": 10,
+      "test_accuracy": 0.9736842105263158
+    }
+  },
+  "best_pca_by_cv": "PCA 95%",
+  "tsne_has_transform": false,
+  "pca_new_shape": [
+    5,
+    2
+  ],
+  "umap_new_shape": [
+    5,
+    2
+  ],
+  "tsne_neighbor_overlap_5_30": 0.5564835164835165,
+  "tsne_neighbor_overlap_30_50": 0.7034432234432234
+}
